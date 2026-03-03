@@ -1,0 +1,18 @@
+# Secret files — never push to GitHub
+.env
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# ML models (too large for GitHub)
+models/*.pkl
+
+# Data files (too large for GitHub)
+data/raw/
+data/tableau/
+data/quarantine/
+
+# VS Code settings
+.vscode/

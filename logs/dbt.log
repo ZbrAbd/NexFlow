@@ -1,0 +1,36 @@
+[0m15:13:34.375100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C67285B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C6BE11590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C6BE11310>]}
+
+
+============================== 15:13:34.399903 | 1da3f67c-fcc6-4fb4-98fc-72cc98570e03 ==============================
+[0m15:13:34.399903 [info ] [MainThread]: Running with dbt=1.11.6
+[0m15:13:34.420493 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\zubair\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init nexflow_dbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:13:34.695631 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\zubair\.dbt
+[0m15:13:36.015490 [debug] [MainThread]: Starter project path: c:\Users\zubair\NexFlow\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:13:36.941715 [info ] [MainThread]: 
+Your new dbt project "nexflow_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:13:37.004997 [info ] [MainThread]: Setting up your profile.
+[0m15:17:52.251081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC11CAA3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC119AB110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC11D49890>]}
+
+
+============================== 15:17:52.274272 | bf74ff72-dc0a-43c7-b0f2-fc9160cd9f4b ==============================
+[0m15:17:52.274272 [info ] [MainThread]: Running with dbt=1.11.6
+[0m15:17:52.276272 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\zubair\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init nexflow_dbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:17:52.566252 [info ] [MainThread]: A project called nexflow_dbt already exists here.
+[0m15:17:52.570805 [debug] [MainThread]: Command `dbt init` succeeded at 15:17:52.569805 after 0.45 seconds
+[0m15:17:52.570805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC1201A090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC118C5090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC0BE2CF90>]}
+[0m15:17:52.571804 [debug] [MainThread]: Flushing usage events
+[0m15:17:53.384416 [debug] [MainThread]: An error was encountered while trying to flush usage events
